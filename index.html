@@ -1,204 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lingva — изучай английский</title>
+    <title>Лингва — учите английский легко</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Шапка сайта -->
+    <!-- ШАПКА -->
     <header class="header">
-        <div class="container nav">
-            <a href="#" class="logo">lingva<span>.</span></a>
+        <a class="logo" href="#">Линг<span>ва</span></a>
 
-            <nav>
-                <a href="#features">Возможности</a>
-                <a href="#steps">Как это работает</a>
-                <a href="#faq">Вопросы</a>
-            </nav>
+        <nav class="nav">
+            <a href="#features">Возможности</a>
+            <a href="#steps">Как это работает</a>
+            <a href="#faq">Вопросы</a>
+        </nav>
 
-            <a href="#download" class="button">Начать учиться</a>
-        </div>
+        <a class="btn btn-small" href="#download">Скачать</a>
     </header>
 
-    <!-- Главный экран -->
+    <!-- ГЛАВНЫЙ ЭКРАН -->
     <section class="hero">
-        <div class="container hero-grid">
+        <div class="hero-text">
+            <p class="badge">Новое · 5 минут в день</p>
 
-            <div class="hero-content">
-                <p class="eyebrow">АНГЛИЙСКИЙ МОЖЕТ БЫТЬ ПРОСТЫМ</p>
+            <h1>
+                Английский, который
+                <span class="mark">получается</span>
+            </h1>
 
-                <h1>Открой мир с <span>английским</span></h1>
+            <p class="lead">
+                Короткие уроки, игры со словами и напоминания —
+                учитесь в удобном ритме.
+            </p>
 
-                <p class="hero-text">
-                    Учись в своём темпе, запоминай новые слова
-                    и говори увереннее — всего 15 минут в день.
-                </p>
-
-                <a href="#download" class="button">
-                    Попробовать бесплатно
+            <div class="hero-buttons">
+                <a class="btn" href="#download">Начать бесплатно</a>
+                <a class="btn btn-ghost" href="#steps">
+                    Как это работает
                 </a>
             </div>
+        </div>
 
-            <!-- Телефон -->
-            <div class="hero-visual">
-                <div class="phone">
-                    <div class="phone-screen">
+        <!-- ТЕЛЕФОН -->
+        <div class="phone">
+            <div class="phone-screen">
+                <p class="screen-title">Слово дня</p>
 
-                        <div class="phone-top">9:41</div>
-
-                        <h2>Привет! 👋</h2>
-                        <p>Продолжим обучение?</p>
-
-                        <div class="progress-card">
-                            <strong>Твой прогресс</strong>
-                            <div class="progress-track">
-                                <span></span>
-                            </div>
-                            <small>Ты отлично справляешься!</small>
-                        </div>
-
-                        <h3>Урок на сегодня</h3>
-
-                        <div class="lesson-card">
-                            <strong>📚 Новые слова</strong>
-                            <small>10 слов · 5 минут</small>
-                        </div>
-
-                        <div class="lesson-card">
-                            <strong>🎧 Аудирование</strong>
-                            <small>Короткий диалог</small>
-                        </div>
-
-                    </div>
+                <div class="word-card">
+                    <span class="word">Journey</span>
+                    <span class="translation">путешествие</span>
                 </div>
-            </div>
 
+                <div class="progress">
+                    <div class="progress-fill" style="width: 70%"></div>
+                </div>
+
+                <p class="screen-note">Прогресс: 7 из 10 слов</p>
+
+                <div class="screen-btn">Дальше</div>
+            </div>
         </div>
     </section>
 
-    <!-- Возможности -->
+    <!-- ВОЗМОЖНОСТИ -->
     <section class="section" id="features">
-        <div class="container">
+        <h2 class="section-title">Всё для обучения</h2>
 
-            <div class="section-heading">
-                <p class="eyebrow">ПОЧЕМУ LINGVA?</p>
-                <h2>Всё для твоего <span>успеха</span></h2>
-                <p>Небольшие шаги каждый день приводят к большим результатам.</p>
-            </div>
+        <div class="features">
+            <article class="feature">
+                <div class="feature-icon">Aa</div>
+                <h3>Слова в контексте</h3>
+                <p>
+                    Учите слова на живых примерах,
+                    а не по сухим спискам.
+                </p>
+            </article>
 
-            <div class="feature-grid">
+            <article class="feature">
+                <div class="feature-icon">♪</div>
+                <h3>Живое произношение</h3>
+                <p>
+                    Слушайте носителей языка
+                    и повторяйте за ними.
+                </p>
+            </article>
 
-                <div class="feature-card">
-                    <div class="feature-icon">✦</div>
-                    <h3>Учись играя</h3>
-                    <p>Интересные задания помогают учиться с удовольствием.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">◷</div>
-                    <h3>В своём темпе</h3>
-                    <p>Занимайся тогда, когда тебе удобно.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">♫</div>
-                    <h3>Больше практики</h3>
-                    <p>Слушай, читай и тренируй новые слова каждый день.</p>
-                </div>
-
-            </div>
+            <article class="feature">
+                <div class="feature-icon">★</div>
+                <h3>Награды и серии</h3>
+                <p>
+                    Уровни и достижения помогают
+                    не бросать занятия.
+                </p>
+            </article>
         </div>
     </section>
 
-    <!-- Этапы обучения -->
-    <section class="section steps" id="steps">
-        <div class="container">
+    <!-- КАК ЭТО РАБОТАЕТ -->
+    <section class="section" id="steps">
+        <h2 class="section-title">Как это работает</h2>
 
-            <div class="section-heading">
-                <p class="eyebrow">НАЧАТЬ ЛЕГКО</p>
-                <h2>Три шага к успеху</h2>
-            </div>
+        <ol class="steps">
+            <li class="step">
+                <h3>Выберите уровень</h3>
+                <p>Пройдите короткий тест — мы подберём программу.</p>
+            </li>
 
-            <div class="steps-grid">
+            <li class="step">
+                <h3>Занимайтесь 5 минут</h3>
+                <p>Один урок в день — и слова остаются в памяти.</p>
+            </li>
 
-                <div class="step-card">
-                    <h3>Создай профиль</h3>
-                    <p>Расскажи немного о себе и выбери уровень английского.</p>
-                </div>
-
-                <div class="step-card">
-                    <h3>Выбери цель</h3>
-                    <p>Реши, для чего тебе нужен английский язык.</p>
-                </div>
-
-                <div class="step-card">
-                    <h3>Начни практику</h3>
-                    <p>Проходи короткие уроки каждый день.</p>
-                </div>
-
-            </div>
-        </div>
+            <li class="step">
+                <h3>Следите за прогрессом</h3>
+                <p>Статистика покажет, как вы растёте.</p>
+            </li>
+        </ol>
     </section>
 
-    <!-- FAQ -->
+    <!-- ВОПРОСЫ -->
     <section class="section" id="faq">
-        <div class="container faq-layout">
+        <h2 class="section-title">Частые вопросы</h2>
 
-            <div class="section-heading">
-                <p class="eyebrow">FAQ</p>
-                <h2>Частые вопросы</h2>
-                <p>Ответы на вопросы о приложении Lingva.</p>
-            </div>
+        <div class="faq">
+            <details class="faq-item" open>
+                <summary>Приложение бесплатное?</summary>
+                <p>
+                    Базовые уроки бесплатны.
+                    Расширенные функции доступны по подписке.
+                </p>
+            </details>
 
-            <div class="faq-list">
+            <details class="faq-item">
+                <summary>Подойдёт ли оно новичку?</summary>
+                <p>
+                    Да, программа начинается с нуля
+                    и растёт вместе с вами.
+                </p>
+            </details>
 
-                <details>
-                    <summary>Подойдёт ли приложение новичкам?</summary>
-                    <p>Да! Начать можно с базовых слов и простых выражений.</p>
-                </details>
-
-                <details>
-                    <summary>Сколько времени нужно заниматься?</summary>
-                    <p>Для начала достаточно 15 минут в день.</p>
-                </details>
-
-                <details>
-                    <summary>Можно ли учиться в любое время?</summary>
-                    <p>Да, занимайся в любое удобное для тебя время.</p>
-                </details>
-
-                <details>
-                    <summary>Нужен ли опыт изучения английского?</summary>
-                    <p>Нет. Приложение подходит даже начинающим.</p>
-                </details>
-
-            </div>
+            <details class="faq-item">
+                <summary>Работает ли без интернета?</summary>
+                <p>
+                    Скачанные уроки доступны
+                    и без подключения к сети.
+                </p>
+            </details>
         </div>
     </section>
 
-    <!-- Призыв к действию -->
-    <section class="download" id="download">
-        <div class="container download-inner">
-            <div>
-                <h2>Начни изучать английский сегодня!</h2>
-                <p>Пусть английский станет частью каждого дня.</p>
-            </div>
+    <!-- БАННЕР -->
+    <section class="cta" id="download">
+        <h2>Начните учиться сегодня</h2>
+        <p>Скачайте приложение — первый урок бесплатно.</p>
 
-            <a href="mailto:hello@lingva.example" class="button button-light">
-                Начать бесплатно
-            </a>
+        <div class="cta-buttons">
+            <a class="btn btn-light" href="#">App Store</a>
+            <a class="btn btn-light" href="#">Google Play</a>
         </div>
     </section>
 
-    <!-- Подвал -->
+    <!-- ПОДВАЛ -->
     <footer class="footer">
-        <div class="container footer-inner">
-            <a href="#" class="logo">lingva<span>.</span></a>
-            <p>© 2026 Lingva. Учись с удовольствием.</p>
-        </div>
+        <p>© 2026 Лингва</p>
+        <p>Поддержка: help@example.com</p>
     </footer>
 
 </body>
